@@ -1,0 +1,30 @@
+@media screen and (max-width: 320px){
+    .contact-us .section-heading .mbtn {
+        width: 54vw;
+      }
+	  .contact-us .banner{
+		  display: none;
+	  }
+      .btn1{
+        margin-left: 8.5%;
+        width: 84vw;
+        padding: 2%;
+        margin-top: 3%;
+      }
+      .main-banner
+        .container
+        .row
+        .col-lg-12
+        .row
+        .col-lg-6
+        .header-text
+        #hlx2{
+            font-size: 32px;
+        }
+
+        .our-services .progress-skill-bar {
+            margin-bottom: 30px;
+            position: relative;
+            width: 87%;
+          }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Support</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/animated.css" />
+  <link rel="stylesheet" href="assets/css/owl.css" />
+  <link rel="stylesheet" href="sp.css" />
+  <link rel="stylesheet" href="media.css" />
+  <link rel="stylesheet" href="assets/animate/animate-css-animate.css-e8c4fab/animate.min.css" />
+  <link rel="stylesheet" href="wickedcss.min.css">
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/isotope.js"></script>
+</head>
+
+<body class="bods" style="overflow-x: hidden;">
+  <script>
+    window.jQuery || document.write('<script src="assets/js/jquery-3.6.1.min.js"><\/script>')
+</script>
+<script src="WOW-1.1.2/dist/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+  <nav class="nav1 shadow">
+    <i class="fas fa-bars-staggered" id="ix" onclick="rvl()"></i>
+  </nav>
+  <div class="link wow" id="lk">
+    <a href="index.html"><button class="bt1" id="b1">HOME</button></a>
+    <br />
+    <a href="serve.html"><button class="bt2" id="b2">SERVICES</button></a>
+    <br />
+    <a href="about.html"><button class="bt3" id="b3">ABOUT US</button></a>
+    <br />
+    <a href="#"><button class="bt3" id="b3">CLIENT SUPPORT</button></a>
+    <br />
+    <a href="index.html#contact"><button class="bt2" id="b2">CONTACT</button></a>
+    <br />
+    <br />
+    <i class="fas fa-xmark" onclick="xvl()"></i>
+  </div>
+  <br />
+  <h2 class="wow vhx">FILE YOUR COMPLAINT</h2>
+  <div class="div1">
+    <div class="xd1"></div>
+    <div class="xd2">
+      <form action="PHPMailer-master/PHPMailer-master/mail.php" method="post">
+        <input type="email" placeholder="E-Mail Address" required name="email"/>
+        <br />
+        <br />
+        <p>Message Us</p>
+        <textarea name="mssg"> </textarea>
+        <br />
+        <button class="btnf" type="submit" name="sent">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+
+  <br />
+  <h2 class="sdc wow fadeInUp">CONTACT INFO</h2>
+  <div class="div2">
+    <div class="xd3 wow"></div>
+    <div class="xd4 wow">
+      <h3>CONTACT INFO</h3>
+      <p class="p1">
+        <b>Head Office Address:</b> No 1A, Isheri Road, Opposite Excellence
+        Hotel, Aguda B/Stop, Ogba Lagos <br />08035853226
+      </p>
+      <p class="p1">
+        <b>Branch 1:</b> KM 38, Lagos-Abeokuta Express Road, Allishiba
+        B/stop,Opposite POLARIS Bank,Sango/Ota, Ogun State <br />
+        +234-8035853226, 08055863143
+      </p>
+      <p class="p1">
+        <b>Branch 2:</b> Oko Village, Along Air Port Road, Benin city, Edo
+        State<br />08078312787, 08024397043
+      </p>
+      <p class="p1" id="p1x">
+        <b>
+          info@aksolglobalsystems.com<br />
+          enquiry@aksolglobalsystems.com</b>
+      </p>
+    </div>
+  </div>
+  <br />
+
+  <div class="slic wow">
+    <a href="https://api.whatsapp.com/send?phone=08035853226" class="a1"><i class="fab fa-whatsapp" id="x1"></i></a>
+    <a href="https:// https://m.facebook.com/story.php?story_fbid=pfbid02t67vboaGAihHLxYC3H7QbzWntR4FrUzuZ4nDrDZRQujsJMoyTsndpbSJnm1B6pGl&id=659167944121677&mibextid=Nif5oz" class="a2"><i class="fab fa-facebook-f" id="x2"></i></a>
+    <a href="https://m.me/aksolglobal" target="_blank" class="a3"><i class="fab fa-facebook-messenger" id="x3"></i></a>
+  </div>
+  <footer class="wow">
+    <p>© Copyright 2023 Shadow Inc. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    function rvl() {
+      document.getElementById("lk").style.display = "block";
+      document.getElementById("lk").style.animation = "zoomer";
+      document.getElementById("lk").style.animationDuration = "3s";
+    }
+    function xvl() {
+      document.getElementById("lk").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>

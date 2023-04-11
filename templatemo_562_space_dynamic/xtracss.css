@@ -1,0 +1,639 @@
+@import url('wickedcss.min.css');
+
+.about{
+    width: 90%;
+    height: 75vh;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5%;
+    border-radius: 2rem;
+    padding: 1%;
+    margin-top: 6%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+}
+header .nv{
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+  visibility: hidden;
+  padding-top: 15%;
+  margin-bottom: -18%;
+  margin-left: -4.8%;
+}
+header .nv ul{
+  list-style: none;
+  text-align: center;
+}
+header .nv ul li a{
+  color: #98bf64;
+  font-family: a2;
+}
+header .nv ul li i{
+  color: #03a4ed;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 7%;
+}
+.about .xdiv{
+    width: 80%;
+    height: 70vh;
+    background-color: black;
+    border-radius: 0.8rem;
+    margin-left: 10%;
+    display: inline-flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+}
+.about .xdiv .idiv{
+    width: 40%;
+    height: 70vh;
+    background-image: url("img/reshot-illustration-truck-delivery-service-RWHQGS4X96.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+}
+.about .xdiv .tdiv{
+    width: 58%;
+    height: 70vh;
+    padding: 1.3%;
+}
+@font-face {
+    font-family: "a1";
+    src: url("xtras/atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.otf");
+  }
+  @font-face {
+    font-family: "a7";
+    src: url("xtras/atkinson-hyperlegible/Atkinson-Hyperlegible-Regular-102.otf");
+  }
+  @font-face {
+    font-family: "a2";
+    src: url("xtras/dihjauti/Dihjauti-Regular.otf");
+  }
+  
+  @font-face {
+    font-family: "a3";
+    src: url("xtras/recursive-sans/Recursive_VF_1.078.ttf");
+  }
+  @font-face {
+    font-family: "a4";
+    src: url("xtras/Roboto/Roboto-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "a6";
+    src: url("xtras/poppins/Poppins-Regular.otf");
+  }
+  @font-face {
+    font-family: "arkane";
+    src: url("assets/fonts/Philosopher-Regular.ttf");
+  }
+
+  .about .xdiv .tdiv h1{
+   color: white;
+  }
+  .about .xdiv .tdiv article b{
+    color: white;
+    font-family: a1;
+    background-image: linear-gradient(to right, white 0%, white 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  }
+  .about .xdiv .tdiv article{
+    color: white;
+    font-family: arkane;
+    background-image: linear-gradient(to right, #98bf64 10%, #b210ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  }
+  .obj{
+    height: 140vh;
+    margin-bottom: 10%;
+    background: url("img/color-2326315.jpg"), url("img/background-image-1053439.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-blend-mode: multiply,overlay;
+  }
+  .obj .sdsw{
+  overflow: hidden;
+  height: 350px;
+  width: 728px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 23%;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+}
+.obj .sdsw .sdwrap .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7{
+    float: left;
+    height: 310px;
+    width: 728px;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    background-image: linear-gradient(to right, #98bf64 10%, #b210ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+
+  .obj .sdsw .sdwrap .slide1 h2,.slide2 h2,.slide3 h2,.slide4 h2,.slide5 h2,.slide6 h2,.slide7 h2{
+    font-size: 22px;
+    font-family: a6;
+  }
+
+  .obj .sdsw .sdwrap .slide1 .img{
+    padding: 1%;
+    width: 13vw;
+    height: 23vh;
+    border-radius: 50%;
+    background-image: url("svg/reshot-icon-multiple-services-XSTB32NA85.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 34.6%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+  }
+  .obj .sdsw .sdwrap .slide2 .img{
+    padding: 1%;
+    width: 13vw;
+    height: 23vh;
+    border-radius: 50%;
+    background-image: url("svg/reshot-icon-social-media-YQH65GLWP4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 34.6%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+  }
+  .obj .sdsw .sdwrap .slide3 .img{
+    padding: 1%;
+    width: 13vw;
+    height: 23vh;
+    border-radius: 50%;
+    background-image: url("svg/reshot-icon-promotion-2JPZM4AUDG.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 34.6%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+  }
+  .obj .sdsw .sdwrap .slide4 .img{
+    padding: 1%;
+    width: 13vw;
+    height: 23vh;
+    border-radius: 50%;
+    background-image: url("svg/reshot-icon-winning-team-XUTY7KR85S.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 34.6%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+  }
+  .obj .sdsw .sdwrap .slide5 .img{
+    padding: 1%;
+    width: 13vw;
+    height: 23vh;
+    border-radius: 50%;
+    background-image: url("svg/reshot-icon-multiple-services-XSTB32NA85.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 34.6%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+  }
+  .obj .sdsw .sdwrap .slide6 .img{
+    padding: 1%;
+    width: 13vw;
+    height: 23vh;
+    border-radius: 50%;
+    background-image: url("svg/reshot-icon-gdpr-fast-growth-8SRDC3WVLX.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 34.6%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+  }
+  .obj .sdsw .sdwrap .slide7 .img{
+    padding: 2%;
+    width: 16vw;
+    height: 10vh;
+    border-radius: 50%;
+    background-image: url("svg/reshot-icon-customer-question-XWCSYULV36.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 34.6%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+  }
+  .obj .sdsw .sdwrap{
+    width: calc(728px * 6);
+    animation: slide 30s ease-in-out infinite;
+  }
+
+  @keyframes slide{
+    10%{
+      margin-left: 0px;
+    }
+    30%{
+      margin-left: calc(-728px * 1);
+    }
+    45%{
+      margin-left: calc(-728px * 2);
+    }
+    55%{
+      margin-left: calc(-728px * 3);
+    }
+    70%{
+      margin-left: calc(-728px * 4);
+    }
+    80%{
+      margin-left: calc(-728px * 5);
+    }
+    100%{
+      margin-left: calc(-728px * 6);
+    }
+  }
+
+  .obj .pm{
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    display: inline-flex;
+    margin-top: 3%;
+  }
+  .obj .pm .posit{
+    width: 49%;
+    height: 38vh;
+    border-radius: 0.8rem;
+    background-color: white;
+    padding: 1%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    color: black;
+  }
+  .obj .pm .posit .img{
+    width: 15vw;
+    height: 29vh;
+    border: 4px solid skyblue;
+    border-radius: 50%;
+    margin-left: -15%;
+    background-image: url("img/reshot-illustration-computer-vision-J3FA26SRVL.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    float: left;
+  }
+  .obj .pm .posit article{
+    margin-top: 6%;
+   text-align: right;
+   font-family: arkane;
+   font-size: 18px;
+  }
+  .obj .pm .posit article h3{
+    font-family: a1;
+    background-color: #98bf64;
+    padding: 1%;
+    border-radius: 0.4rem;
+    color: white;
+  }
+  .obj .pm .mot article h3{
+    font-family: a1;
+    background-color: #98bf64;
+    padding: 1%;
+    border-radius: 0.4rem;
+    color: white;
+  }
+  .obj .pm .mot article{
+    margin-top: 6%;
+    font-family: arkane;
+    font-size: 18px;
+  }
+  .obj .pm .mot .img{
+    width: 15vw;
+    height: 29vh;
+    border: 4px solid skyblue;
+    border-radius: 50%;
+    margin-right: -13%;
+    background-image: url("img/reshot-illustration-working-at-home-KDXHQ5AC8W.png");
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    float: right;
+  }
+  .obj .pm .mot{
+    width: 49%;
+    height: 38vh;
+    border-radius: 0.8rem;
+    background-color: white;
+    padding: 1%;
+    margin-left: 4%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    color: black;
+  }
+
+  .obj .motx{
+    width: 49%;
+    height: 37vh;
+    border-radius: 0.8rem;
+    background-color: white;
+    padding: 1%;
+    margin-left: 26%;
+    color: black;
+  }
+  .obj .motx p{
+    color: black;
+    text-align: center;
+    font-family: arkane;
+    font-size: 18px;
+  }
+  .obj .motx .img{
+    width: 15vw;
+    height: 29vh;
+    border: 4px solid skyblue;
+    border-radius: 50%;
+    margin-left: 33%;
+    background-image: url("img/reshot-illustration-work-stress-XRGKF28WN7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -19%;
+  }
+
+  @media (max-width: 320px){
+
+    .about{
+        height: 220vh;
+    }
+    .about .xdiv .idiv{
+      width: 100%;
+      height: 50vh;
+      border-top-right-radius: 0.8rem;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      margin-bottom: 0px;
+    }
+    .about .xdiv .tdiv h1 {
+      color: white;
+      position: absolute;
+      margin-top: -12%;
+    }
+    .about .xdiv .tdiv{
+      height: auto;
+    }
+  .about .xdiv .tdiv article{
+    width: 70vw;
+  }
+  .obj{
+    background: transparent;
+  }
+  .obj .sdsw{
+    width: 90%;
+    margin-left: 5%;
+    display: none;
+  }
+  .obj .pm{
+    display: grid;
+  }
+  .obj .pm .posit{
+    width: 87vw;
+    margin-left: 1%;
+    height: 50vh;
+    margin-bottom: 20%;
+  }
+  .obj .pm .posit article{
+    font-size: 16px;
+  }
+  .obj .pm .posit .img{
+    width: 24vw;
+    height: 18vh;
+  }
+  .obj .pm .mot{
+    width: 87vw;
+    margin-left: -8%;
+    height: 50vh;
+    margin-bottom: 20%;
+  }
+  .obj .pm .mot article{
+    font-size: 16px;
+  }
+  .obj .pm .mot .img{
+    width: 24vw;
+    height: 18vh;
+  }
+  .obj .motx{
+    margin-top: 120%;
+    margin-bottom: 10%;
+    width: 70%;
+    margin-left: 15%;
+    height: 77vh;
+  }
+  .obj .motx p{
+    font-size: 17px;
+  }
+  .hxxc{
+    margin-top: 120%;
+  }
+  .rw1{
+    margin-top: 10%;
+    height: 240vh;
+    display: grid;
+  }
+  .obj .motx .img{
+    width: 38vw;
+    height: 24vh;
+    margin-left: 22%;
+  }
+  .rw1 .col-sm-2{
+    width: 64vw;
+    height: 28vh;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  footer{
+    display: grid;
+    height: 105vh;
+  }
+  footer img{
+    width: 150px;
+    height: 120px;
+    margin-top: 95%;
+    float: none;
+    margin-left: 34%;
+  }
+  footer form input{
+    width: 86vw;
+    padding: 3%;
+  }
+  footer form button{
+    width: 35vw;
+    padding: 3%;
+    margin-left: 33%;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 2rem;
+  }
+  footer form button i{
+    font-size: 16px;
+  }
+  footer div{
+    width: 100vw;
+    bottom: 0;
+    margin-top: 42%;
+    padding-top: 3%;
+    margin-left: -2%;
+    height: 17vh;
+  }
+}
+
+
+
+
+@media (max-width: 375px){
+   
+  .about .xdiv{
+      display: grid;
+      height: 217vh;
+  }
+  header .nv{
+    margin-left: -4%;
+    height: 55vh;
+  }
+  .about{
+      height: 220vh;
+  }
+  .about .xdiv .idiv{
+    width: 100%;
+    height: 50vh;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-bottom: 0px;
+  }
+  .about .xdiv .tdiv h1 {
+    color: white;
+    position: absolute;
+    margin-top: -12%;
+  }
+  .about .xdiv .tdiv{
+    height: auto;
+  }
+.about .xdiv .tdiv article{
+  width: 70vw;
+}
+.obj{
+  background: transparent;
+}
+.obj .sdsw{
+  width: 90%;
+  margin-left: 5%;
+  display: none;
+}
+.obj .pm{
+  display: grid;
+}
+.obj .pm .posit{
+  width: 87vw;
+  margin-left: 1%;
+  height: 50vh;
+  margin-bottom: 20%;
+}
+.obj .pm .posit article{
+  font-size: 16px;
+}
+.obj .pm .posit .img{
+  width: 24vw;
+  height: 18vh;
+}
+.obj .pm .mot{
+  width: 87vw;
+  margin-left: -8%;
+  height: 50vh;
+  margin-bottom: 20%;
+}
+.obj .pm .mot article{
+  font-size: 16px;
+}
+.obj .pm .mot .img{
+  width: 24vw;
+  height: 18vh;
+}
+.obj .motx{
+  margin-top: 120%;
+  margin-bottom: 10%;
+  width: 70%;
+  margin-left: 15%;
+  height: 77vh;
+}
+.obj .motx p{
+  font-size: 17px;
+}
+.hxxc{
+  margin-top: 120%;
+}
+.rw1{
+  margin-top: 10%;
+  height: 240vh;
+  display: grid;
+}
+.obj .motx .img{
+  width: 38vw;
+  height: 24vh;
+  margin-left: 22%;
+}
+.rw1 .col-sm-2{
+  width: 64vw;
+  height: 28vh;
+  margin-left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+footer{
+  display: grid;
+  height: 105vh;
+}
+footer img{
+  width: 180px;
+  height: 160px;
+  margin-top: 85%;
+  float: none;
+  margin-left: 34%;
+}
+footer form input{
+  width: 86vw;
+  padding: 3%;
+}
+footer form button{
+  width: 35vw;
+  padding: 3%;
+  margin-left: 33%;
+  font-size: 15px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  border-radius: 2rem;
+}
+footer form button i{
+  font-size: 16px;
+}
+footer div{
+  width: 100vw;
+  bottom: 0;
+  margin-top: 42%;
+  padding-top: 3%;
+  margin-left: -2%;
+  height: 17vh;
+}
+
+}

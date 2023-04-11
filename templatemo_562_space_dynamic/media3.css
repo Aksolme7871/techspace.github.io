@@ -1,0 +1,115 @@
+@media (max-width: 320px) {
+    .bod{
+        overflow: hidden;
+    }
+    header .hdding{
+        margin-left: 7%;
+        width: 84%;
+        padding-top: 4%;
+    }
+    header .hdding ul{
+        display: none;
+    }
+    header{
+        width: 100%;
+        height: 62vh;
+    }
+    header .hdding i{
+        visibility: visible;
+        margin-left: 29%;
+    }
+    header .hdding .hx1{
+        font-size: 18px;
+    }
+    header .dtype h1{
+        font-size: 26px;
+        word-break: break-all;
+    }
+    header .dtype {
+        margin-top: 37%;
+    }
+    header  .breadcrumb{
+        margin-left: 22%;
+        margin-top: 15%;
+    }
+    header  .breadcrumb li a{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .hx{
+        font-size: 47px;
+        margin-top: -13%;
+        font-weight: bolder;
+    }
+    .imgc{
+        width: 60vw;
+        height: 60vh;
+        margin-left: 18%;
+    }
+    .row{
+        display: grid;
+    }
+    .row .col-sm-3{
+        margin-bottom: 13%;
+        width: 80vw;
+        margin-left: 17%;
+    }
+}
+
+@media (max-width: 375px) {
+    .bod{
+        overflow: hidden;
+    }
+    header .hdding{
+        margin-left: 7%;
+        width: 84%;
+        padding-top: 4%;
+    }
+    header .hdding ul{
+        display: none;
+    }
+    header{
+        width: 100%;
+        height: 69vh;
+    }
+    header .hdding i{
+        visibility: visible;
+        margin-left: 29%;
+    }
+    header .hdding .hx1{
+        font-size: 18px;
+    }
+    header .dtype h1{
+        font-size: 26px;
+        word-break: break-all;
+    }
+    header .dtype {
+        margin-top: 37%;
+    }
+    header  .breadcrumb{
+        margin-left: 25%;
+        margin-top: 15%;
+    }
+    header  .breadcrumb li a{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .hx{
+        font-size: 47px;
+        margin-top: -13%;
+        font-weight: bolder;
+    }
+    .imgc{
+        width: 60vw;
+        height: 60vh;
+        margin-left: 18%;
+    }
+    .row{
+        display: grid;
+    }
+    .row .col-sm-3{
+        margin-bottom: 13%;
+        width: 80vw;
+        margin-left: 17%;
+    }
+}

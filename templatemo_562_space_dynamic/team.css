@@ -1,0 +1,327 @@
+@import url("wickedcss.min.css");
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url('xtras/pxfuel\ \(2\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header .hdding{
+    width: 88%;
+    padding: 1.4%;
+    background-color: white;
+    height: 9vh;
+    border-radius: 0.5rem;
+    margin-left: 6%;
+    position: fixed;
+    z-index: 1000;
+    display: inline-flex;
+}
+header .hdding .hx1{
+    font-family: a2;
+    color: rgb(69, 69, 248);
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+header .hdding .hx2{
+    font-family: a2;
+    color: #98bf64;
+    font-size: 19px;
+    font-weight: bold;
+}
+header .hdding i{
+    font-size: 25px;
+    color: rgb(255, 43, 43);
+    margin-left: 12%;
+    visibility: hidden;
+}
+header .hdding i:hover{
+    color: rgb(69, 69, 248);
+    transition: all 2s;
+}
+
+header .hdding ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 35%;
+}
+header .hdding ul li{
+    margin-left: 6%;
+}
+header .hdding ul li a{
+    color: rgb(69, 69, 248);
+    font-family: a2;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header .hdding ul li a:hover{
+    color: rgb(255, 43, 43);
+    transition: all 2s;
+}
+
+header .dtype {
+    margin-top: 11%;
+}
+header .dtype h1{
+    color: white;
+    font-family: a1;
+    text-align: center;
+    font-size: 85px;
+    overflow: hidden;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(55, end), blink-carat .75s step-end infinite;
+}
+
+@keyframes typing{
+    from {width: 0;}
+    to {width: 100%;}
+}
+@keyframes blink-carat{
+    from,to{border-color: transparent;}
+    50% {border-color: transparent;}
+}
+
+@font-face{
+    font-family: 'a1';
+    src: url("xtras/atkinson-hyperlegible/Atkinson-Hyperlegible-Bold-102.otf");
+}
+@font-face{
+    font-family: 'a2';
+    src: url("xtras/dihjauti/Dihjauti-Regular.otf");
+}
+
+@font-face{
+    font-family: 'a3';
+    src: url("xtras/recursive-sans/Recursive_VF_1.078.ttf");
+}
+@font-face{
+    font-family: 'a4';
+    src: url("xtras/Roboto/Roboto-Regular.ttf");
+}
+header  .breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    margin-left: 44%;
+    margin-top: 3%;
+  }
+  
+  /* Display list items side by side */
+ header .breadcrumb li {
+    display: inline;
+    font-size: 17px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+header .breadcrumb li+li:before {
+    padding: 8px;
+    color: white;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+ header .breadcrumb li a {
+    color: white;
+    text-decoration: none;
+    font-family: a2;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .imgc{
+    width: 50%;
+    height: 50vh;
+    background-image: url("xtras/reshot-illustration-development-teamwork-V5YFTC3X74.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-left: 24%;
+    animation: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .hx{
+    color: #273c75;
+    font-family: a3;
+    text-align: center;
+    font-size: 63px;
+    animation: pound;
+    animation-duration: 4s;
+    margin-top: 1%;
+  }
+  .row .c1,.c2{
+    height: 70vh;
+    padding: 1%;
+    background-color: white;
+    box-shadow:2px 4px 10px 1px rgba(0,0,0,0.21);
+    animation: fadeInUp;
+    animation-duration: 3s;
+  }
+  .row .c3,.c4{
+    height: 70vh;
+    padding: 1%;
+    background-color: white;
+    box-shadow:2px 4px 10px 1px rgba(0,0,0,0.21);
+    animation: fadeInUp;
+    animation-duration: 3s;
+  }
+  .row .c1{
+    margin-left: 20%;
+    cursor: pointer;
+    border-top-left-radius: 15%;
+    
+  } 
+  .row .c1 .x{
+    border-top-left-radius: 15%;
+    height: 47vh;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-image: url("xtras/IMG-20230310-WA0014.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .row .c1 p{
+    font-family: a4;
+    text-align: center;
+    font-weight: bold;
+  }
+  .row .c1 .p1{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .row .c2 p{
+    font-family: a4;
+    text-align: center;
+    font-weight: bold;
+  }
+  .row .c2 .p1{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .row .c3 p{
+    font-family: a4;
+    text-align: center;
+    font-weight: bold;
+  }
+  .row .c3 .p1{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .row .c4 p{
+    font-family: a4;
+    text-align: center;
+    font-weight: bold;
+  }
+  .row .c4 .p1{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .row .c2 .x{
+    border-bottom-right-radius: 15%;
+    height: 47vh;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url("xtras/IMG-20230310-WA0013.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .row .c3 .x{
+    border-top-left-radius: 15%;
+    height: 47vh;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-image: url("xtras/reshot-illustration-strong-software-security-QEZ52RP8HT.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .row .c4 .x{
+    border-bottom-right-radius: 15%;
+    height: 47vh;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url("xtras/reshot-illustration-business-person-with-checklist-4FDRP8KNVW.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .row .c1:hover{
+    box-shadow:5px 8px 20px 1px rgba(0,0,0,0.21);
+    transition: all 2s;
+  }
+  .row .c2{
+    margin-left: 10%;
+    cursor: pointer;
+    border-bottom-right-radius: 15%;
+  }
+  .row .c2:hover{
+    box-shadow:5px 8px 20px 1px rgba(0,0,0,0.21);
+    transition: all 2s;
+  }
+  .row .c3{
+    margin-left: 20%;
+    cursor: pointer;
+    border-top-left-radius: 15%;
+  }
+  .row .c3:hover{
+    box-shadow:5px 8px 20px 1px rgba(0,0,0,0.21);
+    transition: all 2s;
+  }
+  .row .c4{
+    margin-left: 10%;
+    cursor: pointer;
+    border-bottom-right-radius: 15%;
+  }
+  .row .c4:hover{
+    box-shadow:5px 8px 20px 1px rgba(0,0,0,0.21);
+    transition: all 2s;
+  }
+  footer{
+    width: 100%;
+    height: 13vh;
+    padding: 2%;
+    background-color: #273c75;
+  }
+  footer p{
+    color: white;
+    text-align: center;
+    z-index: 1000;
+  }
+  header .nv{
+    position: absolute;
+    width: 100%;
+    height: 62vh;
+    background-color: white;
+    visibility: hidden;
+    padding-top: 29%;
+  }
+  header .nv ul{
+    list-style: none;
+    text-align: center;
+    margin-left: -9%;
+  }
+  header .nv ul li a{
+    color: #98bf64;
+    font-family: a2;
+    text-decoration: none;
+  }
+header .nv ul li i{
+    color: #03a4ed;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 7%;
+  }

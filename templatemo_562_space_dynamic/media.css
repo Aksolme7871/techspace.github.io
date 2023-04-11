@@ -1,0 +1,272 @@
+/*
+------------------------------
+ CLIENT SUPPORT START
+------------------------------ 
+ */
+
+@media (max-width: 320px){
+    .bods{
+        overflow-x: hidden;
+        margin: 0px;
+        width: 100%;
+        position: relative;
+    }
+    nav #ix {
+        margin-left: 48%;
+        margin-top: 1.8%;
+    }
+    .link{
+        width: 70vw;
+        margin-left: 16%;
+        height: 57vh;
+        margin-top: 16%;
+    }
+    .link .bt1{
+        width: 36vw;
+    }
+    .link .bt2{
+        width: 40vw;
+        margin-left: 19%;
+    }
+    .link .bt3{
+        width: 56vw;
+    }
+    .vhx{
+        margin-top: 17%;
+        margin-bottom: 3%;
+    }
+    .div1{
+        display: grid;
+        height: 100vh;
+        margin-top: 15%;
+        margin-bottom: 13%;
+        width: 90%;
+        padding: 0%;
+    }
+    .div1 .xd1 {
+        width: 85%;
+        height: 91%;
+        background-size: cover;
+        margin-left: 15%;
+    }
+    .div1 .xd2{
+        margin-top: 18%;
+        width: 90%;
+        margin-left: 0%;
+    }
+    .div1 .xd2 form input {
+        width: 130%;
+    }
+    .div1 .xd2 form{
+        margin-left: 4.4%;
+        position: absolute;
+    }
+    .div1 .xd2 form textarea {
+        width: 130%;
+    }
+    .div1 .xd2 form button {
+        padding: 5%;
+        width: 60%;
+        margin-top: 6%;
+        margin-bottom: 13%;
+        margin-left: 40%;
+    }
+    .div1 .xd2 form p{
+        text-align: left;
+        margin-left: 20%;
+    }
+    .div1 .xd2 form input::placeholder{
+        text-align: center;
+    }
+    .sdc{
+        margin-top: 13%;
+    }
+    .div2{
+        display: grid;
+        height: 100vh;
+        margin-top: 15%;
+        margin-bottom: 13%;
+        width: 90%;
+        padding: 0%;
+    }
+    .div2 .xd3{
+        margin-bottom: 80%;
+        background-size: cover;
+        width: 80%;
+        height: 130%;
+        margin-left: 18%;
+    }
+    .div2 .xd4{
+        margin-top: 20%;
+        width: 100%;
+        height: 95%;
+        margin-left: 5%;
+        padding: 3.5%;
+        border-radius: 2rem;
+    }
+    .slic{
+        margin-top: 80%;
+        position: absolute;
+        padding-top: 4%;
+    }
+    footer{
+        margin-top: 98%;
+        height: 20vh;
+        padding: 2.5%;
+    }
+    footer p{
+        font-size: 15px;
+        margin-top: 8%;
+    }
+      .slic a i {
+        font-size: 25px;
+        font-weight: bolder;
+      }
+      .slic a #x1 {
+        color: #98bf64;
+        margin-left: 0.5%;
+      }
+      .slic .a1 {
+        margin-left: 20%;
+      }
+}
+
+
+ @media (max-width: 375px){
+    .bods{
+        overflow-x: hidden;
+        margin: 0px;
+        width: 100%;
+        position: relative;
+    }
+    nav #ix {
+        margin-left: 49%;
+        margin-top: 2%;
+    }
+    .link{
+        width: 70vw;
+        margin-left: 16%;
+        height: 59vh;
+        margin-top: 14.5%;
+    }
+    .link .bt1{
+        width: 36vw;
+    }
+    .link .bt2{
+        width: 40vw;
+        margin-left: 19%;
+    }
+    .link .bt3{
+        width: 56vw;
+    }
+    .vhx{
+        margin-top: 17%;
+        margin-bottom: 3%;
+    }
+    .div1{
+        display: grid;
+        height: 100vh;
+        margin-top: 15%;
+        margin-bottom: 13%;
+        width: 90%;
+        padding: 0%;
+    }
+    .div1 .xd1 {
+        width: 85%;
+        height: 91%;
+        background-size: cover;
+        margin-left: 15%;
+    }
+    .div1 .xd2{
+        margin-top: 18%;
+        width: 90%;
+        margin-left: 0%;
+    }
+    .div1 .xd2 form input {
+        width: 160%;
+    }
+    .div1 .xd2 form{
+        margin-left: 4%;
+        position: absolute;
+    }
+    .div1 .xd2 form textarea {
+        width: 160%;
+    }
+    .div1 .xd2 form button {
+        padding: 5%;
+        width: 70%;
+        margin-top: 6%;
+        margin-bottom: 13%;
+        margin-left: 50%;
+    }
+    .div1 .xd2 form p{
+        text-align: left;
+        margin-left: 20%;
+    }
+    .div1 .xd2 form input::placeholder{
+        text-align: center;
+    }
+    .sdc{
+        margin-top: 13%;
+    }
+    .div2{
+        display: grid;
+        height: 100vh;
+        margin-top: 15%;
+        margin-bottom: 13%;
+        width: 90%;
+        padding: 0%;
+    }
+    .div2 .xd3{
+        margin-bottom: 80%;
+        background-size: cover;
+        width: 80%;
+        height: 130%;
+        margin-left: 18%;
+    }
+    .div2 .xd4{
+        margin-top: 20%;
+        width: 102%;
+        height: 95%;
+        margin-left: 5%;
+        padding: 3.5%;
+        border-radius: 2rem;
+    }
+    .slic{
+        margin-top: 80%;
+        position: absolute;
+        padding-top: 6%;
+    }
+    footer{
+        margin-top: 98%;
+        height: 20vh;
+        padding: 2.5%;
+    }
+    footer p{
+        font-size: 15px;
+        margin-top: 8%;
+    }
+      .slic a i {
+        font-size: 25px;
+        font-weight: bolder;
+      }
+      .slic a #x1 {
+        color: #98bf64;
+        margin-left: 0.5%;
+      }
+      .slic .a1 {
+        margin-left: 24%;
+      }
+}
+
+/*  
+--------------------
+CLIENT SUPPORT STOP
+--------------------
+*/
+
+/*
+-------------------
+SERVICES START
+-------------------
+*/

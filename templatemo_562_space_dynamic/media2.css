@@ -1,0 +1,151 @@
+@media (max-width: 320px) {
+    body{
+       overflow-x: hidden;
+    }
+   #hx1{
+    font-size: 22px;
+   }
+   #hx{
+    font-size: 34px;
+   }
+   .row div{
+    margin-top: 50%;
+    display: grid;
+   }
+   nav{
+      width: 80vw;
+      display: inline-flex;
+      height: 10vh;
+      float: none;
+      position: relative;
+      margin-top: 5%;
+   }
+   nav button{
+      width: 20vw;
+      padding: 2%;
+   }
+   nav a button i{
+      font-size: 20px;
+   }
+   nav a{
+      margin-left: 3%;
+   }
+   nav .ax{
+      margin-left: 3%;
+   }
+   .row .c1{
+      margin-left: 8%;
+   }
+   .row .col-sm-3{
+      width: 84%;
+      margin-bottom: -37%;
+   }
+   .row .c2{
+      margin-left: 8%;
+   }
+
+   .row .c1 .xx{
+    width: 39vw;
+    height: 24vh;
+    margin-left: 28%;
+   }
+   .row .c2 .xx{
+      width: 39vw;
+      height: 24vh;
+      margin-left: 28%;
+     }
+     .row div h2{
+      font-size: 25px;
+     }
+     .txt{
+      margin-top: 80%;
+     }
+     .thm{
+      position: absolute;
+      width: 60vw;
+      margin-top: 1060%;
+      margin-left: 27%;
+     }
+     .thm button{
+      width: 45vw;
+      padding: 5%;
+      border-radius: 3rem;
+     }
+}
+
+
+@media (max-width: 375px) {
+   body{
+      overflow-x: hidden;
+   }
+  #hx1{
+   font-size: 22px;
+  }
+  #hx{
+   font-size: 34px;
+  }
+  .row div{
+   margin-top: 43%;
+   display: grid;
+  }
+  nav{
+     width: 80vw;
+     display: inline-flex;
+     height: 10vh;
+     float: none;
+     position: relative;
+     margin-top: 5%;
+  }
+  nav button{
+     width: 20vw;
+     padding: 2%;
+     height: 13vh;
+  }
+  nav a button i{
+     font-size: 20px;
+  }
+  nav a{
+     margin-left: 3%;
+  }
+  nav .ax{
+     margin-left: 4%;
+  }
+  .row .c1{
+     margin-left: 14%;
+  }
+  .row .col-sm-3{
+     width: 74%;
+     margin-bottom: -37%;
+  }
+  .row .c2{
+     margin-left: 14%;
+  }
+
+  .row .c1 .xx{
+   width: 34vw;
+   height: 24vh;
+   margin-left: 28%;
+  }
+  .row .c2 .xx{
+     width: 34vw;
+     height: 24vh;
+     margin-left: 28%;
+    }
+    .row div h2{
+     font-size: 27px;
+    }
+    .txt{
+     margin-top: 80%;
+    }
+    .thm{
+     position: absolute;
+     width: 60vw;
+     margin-top: 860%;
+     margin-left: 27%;
+    }
+    .thm button{
+     width: 45vw;
+     padding: 5%;
+     border-radius: 3rem;
+    }
+}
